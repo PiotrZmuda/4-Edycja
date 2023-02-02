@@ -11,6 +11,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-placeholder{
@@ -72,3 +73,41 @@ body{
     top: -25%;
 }
 
+.wrapper-buttons{
+    /* width: 1260px; */
+height: 78px;
+background: #222426;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.wrapper-buttons button{  
+    justify-content: space-between;
+}
+
+.wrapper-buttons span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.wrapper-buttons button{
+width: 136px;
+height: 38px;
+left: 77px;
+top: 124px;
+background: #222426;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+color:#FFFFFF;
+margin: 0% 1%;
+
+}
+.wrapper-buttons button span img{
+ 
+   /* background-color: #FFFFFF; */
+   justify-content: space-between;
+}
