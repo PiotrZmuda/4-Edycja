@@ -1,3 +1,74 @@
-.icone-group{
-    height: 20px
+body{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
 }
+
+.main-container{
+    margin: 0px 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-placeholder{
+    position: relative;
+}
+.header-placeholder input{
+    background: white;
+    border: 1px solid #B5BDC7;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+}
+.header-placeholder img{
+    position: absolute;
+    top: 14%;
+    right: 2%;
+    width:30px;
+    height:30px
+}
+.header-button-one {
+    width: 130px;
+    height: 40px;
+    /* left: 1019px;
+    top: 21px; */
+    background: #490DF4;
+    border: 2px solid #222426;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.header-button-two{
+    width: 130px;
+    height: 40px;
+    /* left: 1019px;
+    top: 21px; */
+    background:  #FFFFFF;
+    border: 2px solid #222426;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.header-button-two button{
+    position: relative;
+}
+.header-button-two span{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    color:  #222426;
+}
+.header-button-two img{
+    position: absolute;
+    left: 126%;
+    top: -25%;
+}
+
