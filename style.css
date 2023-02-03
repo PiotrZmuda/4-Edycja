@@ -2,6 +2,7 @@ body {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
+  background: ghostwhite;
 }
 
 .main-container {
@@ -80,8 +81,6 @@ body {
 .wrapper-buttons button {
   width: 136px;
   height: 38px;
-  left: 77px;
-  top: 124px;
   background: #222426;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -111,10 +110,40 @@ body {
   color: #b5bdc7;
   border: 1px solid #b5bdc7;
   display: flex;
+  margin-left: 6%;
 }
 .wrapper-buttons :nth-child(8) span {
   width: 159px;
   color: #b5bdc7;
   justify-content: space-between;
   padding-top: 2%;
+}
+
+.icons-wrapper {
+  height: 78px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 1%;
+}
+
+.icons-wrapper-left {
+  display: flex;
+}
+
+.span-icons {
+  border: 2px solid #222426;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-word{
+    display: flex;
+    align-items: center;
 }
