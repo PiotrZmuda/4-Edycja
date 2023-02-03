@@ -132,30 +132,56 @@ body {
 .icons-wrapper-left {
   display: flex;
 }
+.icons-wrapper-left button {
+  border: 2px solid #222426;
+  border-radius: 10px;
+  width: 83px;
+  height: 38px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+.icons-wrapper-left button span {
+  display: flex;
+  justify-content: space-between;
+}
+.icons-wrapper-left button span span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .span-icons {
   border: 2px solid #222426;
   border-radius: 10px;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.span-word{
-    display: flex;
-    align-items: center;
+.span-icons span {
+  width: 23.47px;
+  height: 23.47px;
+  background-color: black;
 }
 
-.icons-wrapper-right button{
-    border: 2px solid #222426;
-    border-radius: 10px;
-    width: 139px;
-    height: 38px;
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    color: #222426;
+.span-word {
+  display: flex;
+  align-items: center;
+}
+
+.icons-wrapper-right button {
+  border: 2px solid #222426;
+  border-radius: 10px;
+  width: 139px;
+  height: 38px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #222426;
 }
