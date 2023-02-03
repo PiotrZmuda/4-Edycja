@@ -147,3 +147,15 @@ body {
     display: flex;
     align-items: center;
 }
+
+.icons-wrapper-right button{
+    border: 2px solid #222426;
+    border-radius: 10px;
+    width: 139px;
+    height: 38px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #222426;
+}
