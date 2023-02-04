@@ -188,6 +188,7 @@ body {
   font-weight: 300;
   font-size: 14px;
   color: #222426;
+  background-color: #FFFFFF
 }
 
 .filter-sort{
@@ -247,19 +248,60 @@ margin-left: 5px;
     font-weight: 700;
 font-size: 16px;
 line-height: 20px;
+margin-right: 10px;
 }
 .workplace{
     font-weight: 300;
 font-size: 12px;
 line-height: 15px;
 color: #222426;
+margin-top: 15px;
+    display: flex;
+}
+.workplace :nth-child(5){
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #490DF4;
 }
 
 .separator{
     border: 1px solid #B5BDC7;
     margin: 0px 7px
 }
+
 .jobs-section-right{
     display: flex;
     align-items: center;
+}
+.jobs-section-right button{
+    width: 133px;
+    height: 36px;
+    border: 2px solid #222426;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+}
+.solary :nth-child(1){
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #490DF4;
+}
+.programming-languages{
+display: flex;
+justify-content: flex-end;
+margin-top: 10px;
+}
+.programming-languages span{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222426;
+    background: #F9F9FC;
+    border-radius: 6px;
+    padding: 5px 0px;
+    margin: 0px 5px;
 }
