@@ -223,13 +223,32 @@ margin-right: 5px;
 margin-left: 5px;
 }
 
-/* .jobs-offers-container{
-
+.jobs-container{
+        /* width: 1257px; */
+    height: 94px;
+    left: 56px;
+    top: 332px;
+    background: #FFFFFF;
+    border: 1px solid #222426;
+    box-shadow: 0px 2px 8px rgb(22 32 75 / 19%);
+    border-radius: 10px;
+    padding: 0% 15px;
+    display: flex;
+    justify-content: space-between
 }
-.jobs-offers-container div{
-height: 94px;
-background: #FFFFFF;
-border: 1px solid #222426;
-box-shadow: 0px 2px 8px rgba(22, 32, 75, 0.19);
-border-radius: 10px;
-} */
+.jobs-section-left{
+    display: flex;
+    align-items: center;
+}
+.job-offers{
+    margin-left:20px;
+}
+.job-offers :nth-child(1) span{
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
+.jobs-section-right{
+    display: flex;
+    align-items: center;
+}
