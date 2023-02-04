@@ -248,6 +248,17 @@ margin-left: 5px;
 font-size: 16px;
 line-height: 20px;
 }
+.workplace{
+    font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+color: #222426;
+}
+
+.separator{
+    border: 1px solid #B5BDC7;
+    margin: 0px 7px
+}
 .jobs-section-right{
     display: flex;
     align-items: center;
