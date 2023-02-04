@@ -224,7 +224,7 @@ margin-right: 5px;
 margin-left: 5px;
 }
 
-.jobs-container{
+.jobs-section{
         /* width: 1257px; */
     height: 94px;
     left: 56px;
@@ -235,7 +235,8 @@ margin-left: 5px;
     border-radius: 10px;
     padding: 0% 15px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin: 10px 0px;
 }
 .jobs-section-left{
     display: flex;
