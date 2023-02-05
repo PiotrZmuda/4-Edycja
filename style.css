@@ -3,6 +3,7 @@ body {
   font-style: normal;
   font-weight: 400;
   background: ghostwhite;
+  margin: 1% 2%;
 }
 
 .main-container {
@@ -68,7 +69,7 @@ body {
 .divider {
   height: 2px;
   background: #eceef7;
-  margin: 1% 0%;
+  margin: 15px 0px;
 }
 .wrapper-buttons {
   height: 78px;
