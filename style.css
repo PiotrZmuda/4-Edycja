@@ -9,11 +9,19 @@ body {
 .main-container {
   margin: 0px 20px;
 }
-
-.header {
+.header-container {
   display: flex;
   justify-content: space-between;
+}
+.header {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-right: 40px;
+}
+.header :nth-child(n + 3){
+  font-size: 16px
 }
 .header-placeholder {
   position: relative;
@@ -55,7 +63,9 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  margin-left: 20px;
 }
+
 .header-button-two span {
   display: flex;
   align-items: center;
@@ -187,7 +197,7 @@ body {
   align-items: center;
   padding: 0px 10px;
 }
-.icons-wrapper-right :nth-child(2){
+.icons-wrapper-right :nth-child(2) {
   margin-left: 10px;
 }
 .icons-wrapper-right button {
@@ -320,20 +330,55 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-
-  .wrapper-buttons button{
-    width: 106px;
+  .header-button-two{
+    margin-left: 10px
   }
-  .span-icons{
+  .wrapper-buttons button {
+    width: 108px;
+  }
+  .span-icons {
     width: 30px;
   }
-  .span-word{
+  .span-word {
     padding: 0px 5px;
   }
-  .icons-wrapper-right :nth-child(2){
+  .icons-wrapper-right :nth-child(2) {
     margin-left: 5px;
   }
-  .icons-wrapper-right button{
-    width: 129px;
+  .icons-wrapper-right button {
+    width: 122px;
+  }
+}
+
+
+@media only screen and (max-width: 1025px){
+  .header{
+    margin-right: 20px
+  }
+  .header-button-one{
+    width: 120px;
+    height: 36px;
+    font-size: 16px
+  }
+  .header-button-two{
+    width: 120px;
+    margin-left: 5px;
+    height: 36px;
+    font-size: 14px
+  }
+  .header-placeholder input{
+    width: 250px;
+  }
+  .header :nth-child(n+3){
+    font-size: 14px
+
+  }
+  .wrapper-buttons button{
+    width: 87px
+  }
+  .icons-wrapper-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
