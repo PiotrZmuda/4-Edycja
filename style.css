@@ -15,7 +15,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
 .header-placeholder {
   position: relative;
 }
@@ -26,8 +25,8 @@ body {
   width: 280px;
   height: 40px;
 }
-.header-placeholder input::placeholder{
-    padding-left: 10px;
+.header-placeholder input::placeholder {
+  padding-left: 10px;
 }
 .header-placeholder img {
   position: absolute;
@@ -47,7 +46,6 @@ body {
   line-height: 20px;
   color: #ffffff;
 }
-
 .header-button-two {
   width: 130px;
   height: 40px;
@@ -58,7 +56,6 @@ body {
   font-size: 16px;
   line-height: 20px;
 }
-
 .header-button-two span {
   display: flex;
   align-items: center;
@@ -74,10 +71,16 @@ body {
   background: #eceef7;
   margin: 15px 0px;
 }
-.wrapper-buttons {
-  height: 78px;
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
   background: #222426;
+  height: 78px;
   border-radius: 10px;
+  padding: 0px 10px;
+}
+.wrapper-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,7 +92,7 @@ body {
   border: 1px solid #ffffff;
   border-radius: 10px;
   color: #ffffff;
-  margin: 0% 1%;
+  margin-right: 10px;
 }
 
 .wrapper-buttons span {
@@ -108,19 +111,22 @@ body {
   justify-content: space-between;
   padding-top: 3%;
 }
-
-.wrapper-buttons :nth-child(8) {
-  width: 159px;
-  color: #b5bdc7;
-  border: 1px solid #b5bdc7;
+.last-button {
   display: flex;
-  margin-left: 6%;
+  align-items: center;
 }
-.wrapper-buttons :nth-child(8) span {
+.last-button button {
   width: 159px;
+  height: 38px;
+  background: #222426;
+  border: 1px solid #b5bdc7;
+  border-radius: 10px;
   color: #b5bdc7;
+}
+.last-button span {
+  display: flex;
   justify-content: space-between;
-  padding-top: 2%;
+  align-items: center;
 }
 
 .icons-wrapper {
@@ -154,8 +160,8 @@ body {
 .icons-wrapper-left button span span {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 15px;
+  /* justify-content: space-between;
+  margin-right: 15px; */
 }
 
 .span-icons {
@@ -181,8 +187,9 @@ body {
   align-items: center;
   padding: 0px 10px;
 }
-
-
+.icons-wrapper-right :nth-child(2){
+  margin-left: 10px;
+}
 .icons-wrapper-right button {
   border: 2px solid #222426;
   border-radius: 10px;
@@ -193,133 +200,140 @@ body {
   font-weight: 300;
   font-size: 14px;
   color: #222426;
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
-.filter-sort{
-    display: flex;
-    justify-content: space-between;
-    margin: 1% 0%;
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0%;
 }
-.filter{
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-font-size: 16px;
-}
-
-.filter img{
-    margin-right: 7%;
+.filter {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
 }
 
-.sort{
-    display: flex;
-    align-items: center;
-    margin-right: 4px;
-}
-.sort :nth-child(1){
-    margin-left: 20px;
-}
-.sort a{
-font-weight: 300;
-font-size: 16px;
-line-height: 20px;
-color: #490DF4;
-margin-right: 5px;
-margin-left: 5px;
+.filter img {
+  margin-right: 7%;
 }
 
-.jobs-section{
-        /* width: 1257px; */
-    height: 94px;
-    left: 56px;
-    top: 332px;
-    background: #FFFFFF;
-    border: 1px solid #222426;
-    box-shadow: 0px 2px 8px rgb(22 32 75 / 19%);
-    border-radius: 10px;
-    padding: 0% 15px;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0px;
+.sort {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
 }
-.jobs-section-left{
-    display: flex;
-    align-items: center;
+.sort :nth-child(1) {
+  margin-left: 20px;
 }
-.job-offers{
-    margin-left:20px;
-}
-.job-offers :nth-child(1) span{
-    font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-margin-right: 10px;
-}
-.workplace{
-    font-weight: 300;
-font-size: 12px;
-line-height: 15px;
-color: #222426;
-margin-top: 15px;
-    display: flex;
-}
-.workplace :nth-child(5){
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    color: #490DF4;
+.sort a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #490df4;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-.separator{
-    border: 1px solid #B5BDC7;
-    margin: 0px 7px
+.jobs-section {
+  /* width: 1257px; */
+  height: 94px;
+  left: 56px;
+  top: 332px;
+  background: #ffffff;
+  border: 1px solid #222426;
+  box-shadow: 0px 2px 8px rgb(22 32 75 / 19%);
+  border-radius: 10px;
+  padding: 0% 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.jobs-section-left {
+  display: flex;
+  align-items: center;
+}
+.job-offers {
+  margin-left: 20px;
+}
+.job-offers :nth-child(1) span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.workplace {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #222426;
+  margin-top: 15px;
+  display: flex;
+}
+.workplace :nth-child(5) {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #490df4;
 }
 
-.jobs-section-right{
-    display: flex;
-    align-items: center;
-}
-.jobs-section-right button{
-    width: 133px;
-    height: 36px;
-    border: 2px solid #222426;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 16px;
-    background-color: #FFFFFF;
-    margin-left: 15px;
-}
-.solary :nth-child(1){
-    font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-color: #490DF4;
-}
-.programming-languages{
-display: flex;
-justify-content: flex-end;
-margin-top: 10px;
-}
-.programming-languages span{
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 15px;
-    color: #222426;
-    background: #F9F9FC;
-    border-radius: 6px;
-    padding: 5px 0px;
-    margin: 0px 5px;
+.separator {
+  border: 1px solid #b5bdc7;
+  margin: 0px 7px;
 }
 
-@media only screen and (max-width: 1200px){
-  .span-word {
-  padding: 0px 5px;
+.jobs-section-right {
+  display: flex;
+  align-items: center;
 }
+.jobs-section-right button {
+  width: 133px;
+  height: 36px;
+  border: 2px solid #222426;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #ffffff;
+  margin-left: 15px;
+}
+.solary :nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #490df4;
+}
+.programming-languages {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.programming-languages span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #222426;
+  background: #f9f9fc;
+  border-radius: 6px;
+  padding: 5px 0px;
+  margin: 0px 5px;
 }
 
-@media only screen and (max-width: 1100px){
-  .span-word {
-  padding: 0px 1px;
-}
+@media only screen and (max-width: 1200px) {
+
+  .wrapper-buttons button{
+    width: 106px;
+  }
+  .span-icons{
+    width: 30px;
+  }
+  .span-word{
+    padding: 0px 5px;
+  }
+  .icons-wrapper-right :nth-child(2){
+    margin-left: 5px;
+  }
+  .icons-wrapper-right button{
+    width: 129px;
+  }
 }
