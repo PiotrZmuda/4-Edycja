@@ -245,7 +245,25 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
-
+.color{
+  height: 93px;
+  width: 58px;
+  position: absolute;
+  z-index: -1;
+  background: #8415FF;
+  border: 1px solid #222426;
+  border-radius: 10px;
+  left: 20px;
+}
+.jobs-container :nth-child(2) .color{
+  background-color: #FF8227;
+}
+.jobs-container :nth-child(3) .color{
+  background-color: #FDFF00;
+}
+.jobs-container :nth-child(4) .color{
+  background-color: #00FF93;
+}
 .jobs-section {
   /* width: 1257px; */
   height: 94px;
