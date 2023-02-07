@@ -98,20 +98,20 @@ body {
   align-items: center;
 }
 .wrapper-buttons button {
-  width: 136px;
+  width: 116px;
   height: 38px;
   background: #222426;
   border: 1px solid #ffffff;
   border-radius: 10px;
   color: #ffffff;
-  margin-right: 10px;
+  margin-right: 22px;
   position: relative;
 }
 .header-color{
   position: absolute;
   width: 22px;
   height: 34px;
-  right: 116px;
+  right: 96px;
   top: 0px;
   background: #31E8FF;
   border: 1px solid #FFFFFF;
@@ -380,6 +380,10 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  .header-color{
+    right: 88px;
+  }
+
   .header-button-two{
     margin-left: 10px
   }
