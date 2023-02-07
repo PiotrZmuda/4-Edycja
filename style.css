@@ -20,8 +20,8 @@ body {
   flex-grow: 1;
   margin-right: 40px;
 }
-.header :nth-child(n + 3){
-  font-size: 16px
+.header :nth-child(n + 3) {
+  font-size: 16px;
 }
 .header-placeholder {
   position: relative;
@@ -107,43 +107,41 @@ body {
   margin-right: 22px;
   position: relative;
 }
-.header-color{
+.header-color {
   position: absolute;
   width: 22px;
   height: 34px;
   right: 96px;
   top: 0px;
-  background: #31E8FF;
-  border: 1px solid #FFFFFF;
+  background: #31e8ff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   z-index: -1;
 }
-.wrapper-buttons :nth-child(1) .header-color{
-  background: #31E8FF;
+.wrapper-buttons :nth-child(1) .header-color {
+  background: #31e8ff;
 }
-.wrapper-buttons :nth-child(2) .header-color{
-  background: #00FF93;
+.wrapper-buttons :nth-child(2) .header-color {
+  background: #00ff93;
 }
-.wrapper-buttons :nth-child(3) .header-color{
-  background:#8415FF;
+.wrapper-buttons :nth-child(3) .header-color {
+  background: #8415ff;
 }
-.wrapper-buttons :nth-child(4) .header-color{
-  background:#FD4DC7;
+.wrapper-buttons :nth-child(4) .header-color {
+  background: #fd4dc7;
 }
-.wrapper-buttons :nth-child(5) .header-color{
-  background-color: #FF8227;
+.wrapper-buttons :nth-child(5) .header-color {
+  background-color: #ff8227;
 }
-.wrapper-buttons :nth-child(6) .header-color{
-  background-color: #FDFF00;
+.wrapper-buttons :nth-child(6) .header-color {
+  background-color: #fdff00;
 }
-
 .wrapper-buttons span {
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
 }
-
 .wrapper-buttons :nth-child(7) {
   width: 87px;
   display: flex;
@@ -277,27 +275,27 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
-.color{
+
+.jobs-section-color {
   height: 93px;
   width: 58px;
   position: absolute;
   z-index: -1;
-  background: #8415FF;
+  background: #8415ff;
   border: 1px solid #222426;
   border-radius: 10px;
   left: 20px;
 }
-.jobs-container :nth-child(2) .color{
-  background-color: #FF8227;
+.jobs-container :nth-child(2) .jobs-section-color {
+  background-color: #ff8227;
 }
-.jobs-container :nth-child(3) .color{
-  background-color: #FDFF00;
+.jobs-container :nth-child(3) .jobs-section-color {
+  background-color: #fdff00;
 }
-.jobs-container :nth-child(4) .color{
-  background-color: #00FF93;
+.jobs-container :nth-child(4) .jobs-section-color {
+  background-color: #00ff93;
 }
 .jobs-section {
-  /* width: 1257px; */
   height: 94px;
   left: 56px;
   top: 332px;
@@ -380,15 +378,15 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  .header-color{
+  .header-color {
     right: 88px;
   }
-
-  .header-button-two{
-    margin-left: 10px
+  .header-button-two {
+    margin-left: 10px;
   }
   .wrapper-buttons button {
     width: 108px;
+    margin-right: 10px;
   }
   .span-icons {
     width: 30px;
@@ -402,37 +400,44 @@ body {
   .icons-wrapper-right button {
     width: 122px;
   }
+  .jobs-section-color{
+    left: 17px;
+  }
 }
 
-
-@media only screen and (max-width: 1025px){
-  .header{
-    margin-right: 20px
+@media only screen and (max-width: 1025px) {
+  .header {
+    margin-right: 20px;
   }
-  .header-button-one{
+  .header-color {
+    right: 66px;
+  }
+  .header-button-one {
     width: 120px;
     height: 36px;
-    font-size: 16px
+    font-size: 16px;
   }
-  .header-button-two{
+  .header-button-two {
     width: 120px;
     margin-left: 5px;
     height: 36px;
-    font-size: 14px
+    font-size: 14px;
   }
-  .header-placeholder input{
+  .header-placeholder input {
     width: 250px;
   }
-  .header :nth-child(n+3){
-    font-size: 14px
-
+  .header :nth-child(n + 3) {
+    font-size: 14px;
   }
-  .wrapper-buttons button{
-    width: 87px
+  .wrapper-buttons button {
+    width: 87px;
   }
-  .icons-wrapper-right{
+  .icons-wrapper-right {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .jobs-section-color {
+    left: 15px;
   }
 }
