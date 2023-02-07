@@ -89,6 +89,8 @@ body {
   height: 78px;
   border-radius: 10px;
   padding: 0px 10px;
+  position: relative;
+  z-index: 0;
 }
 .wrapper-buttons {
   display: flex;
@@ -103,6 +105,36 @@ body {
   border-radius: 10px;
   color: #ffffff;
   margin-right: 10px;
+  position: relative;
+}
+.header-color{
+  position: absolute;
+  width: 22px;
+  height: 34px;
+  right: 116px;
+  top: 0px;
+  background: #31E8FF;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  z-index: -1;
+}
+.wrapper-buttons :nth-child(1) .header-color{
+  background: #31E8FF;
+}
+.wrapper-buttons :nth-child(2) .header-color{
+  background: #00FF93;
+}
+.wrapper-buttons :nth-child(3) .header-color{
+  background:#8415FF;
+}
+.wrapper-buttons :nth-child(4) .header-color{
+  background:#FD4DC7;
+}
+.wrapper-buttons :nth-child(5) .header-color{
+  background-color: #FF8227;
+}
+.wrapper-buttons :nth-child(6) .header-color{
+  background-color: #FDFF00;
 }
 
 .wrapper-buttons span {
