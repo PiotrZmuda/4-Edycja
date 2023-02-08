@@ -2,7 +2,7 @@ body {
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
-  background: ghostwhite;
+  background: #fbfbfd;
   margin: 1% 2%;
 }
 
@@ -111,7 +111,7 @@ body {
   position: absolute;
   width: 22px;
   height: 34px;
-  right: 96px;
+  right: 95px;
   top: 0px;
   background: #31e8ff;
   border: 1px solid #ffffff;
