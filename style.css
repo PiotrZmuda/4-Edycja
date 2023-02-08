@@ -367,6 +367,8 @@ body {
   margin: 0px 5px;
 }
 
+/* --------------- Some media queries */
+
 @media only screen and (max-width: 1200px) {
   .header-color {
     right: 88px;
